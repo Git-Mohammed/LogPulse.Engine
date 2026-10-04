@@ -1,0 +1,24 @@
+2025-01-01T12:00:00Z|INFO|AuthService|34|User signed in
+2025-01-01T12:00:01Z|WARN|ApiGateway|180|Request latency elevated
+2025-01-01T12:00:02Z|ERROR|PaymentGateway|740|Payment provider timeout
+2025-01-01T12:00:03Z|INFO|DatabaseNode|45|Connection returned to pool
+2025-01-01T12:00:04Z|CRITICAL|DatabaseNode|790|Primary database unavailable
+2025-01-01T12:00:05Z|INFO|ApiGateway|76|Request completed
+2025-01-01T12:00:06Z|ERROR|AuthService|210|Token validation failed
+2025-01-01T12:00:07Z|INFO|PaymentGateway|95|Payment authorized
+2025-01-01T12:00:08Z|WARN|DatabaseNode|330|Connection pool near capacity
+2025-01-01T12:00:09Z|INFO|AuthService|20|Session refreshed
+2025-01-01T12:00:10Z|ERROR|ApiGateway|510|Upstream service returned 503
+2025-01-01T12:00:11Z|INFO|DatabaseNode|28|Health check succeeded
+2025-01-01T12:00:12Z|WARN|PaymentGateway|400|Retrying provider request
+2025-01-01T12:00:13Z|INFO|ApiGateway|60|Request completed
+2025-01-01T12:00:14Z|CRITICAL|PaymentGateway|800|Payment processing degraded
+2025-01-01T12:00:15Z|INFO|AuthService|31|User profile loaded
+2025-01-01T12:00:16Z|ERROR|DatabaseNode|615|Query timed out
+2025-01-01T12:00:17Z|INFO|ApiGateway|55|Request completed
+2025-01-01T12:00:18Z|WARN|AuthService|205|External identity provider slow
+2025-01-01T12:00:19Z|INFO|PaymentGateway|83|Payment completed
+2025-01-01T12:00:20Z|INFO|ApiGateway|42|Request completed
+2025-01-01T12:00:21Z|ERROR|ApiGateway|305|Request failed: invalid upstream response
+bad-timestamp|ERROR|ApiGateway|12|This line should be rejected
+2025-01-01T12:00:23Z|INFO|AuthService|not-a-number|Invalid response time
